@@ -1,0 +1,304 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.panel {
+  background-color: #0077b6;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+.panel nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.panel nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.panel nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.panel nav a:hover {
+  color: #00bfff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #00bfff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #008080;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media a {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+  color: #00bfff;
+}
+
+.hero h1,
+section h2 {
+  text-align: center;
+}
+
+.map-container {
+  text-align: center;
+}
+
+
+
+
+.pricing {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 2em;
+  margin-bottom: 0.1em;
+}
+
+.pricing li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pricing h3 {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+.pricing p {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #00a2ff;
+}
+
+
+
+.availability {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.availability h2 {
+  font-size: 2em;
+  margin-bottom: 0.1em;
+}
+
+.availability-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.availability-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.availability-option h3 {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+.availability-option p {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #00a2ff;
+}
+
+
+
+
+/* Reservation Form */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.1em;
+  margin: 1em;
+}
+
+input[type="date"],
+input[type="time"],
+select,
+input[type="text"] {
+  padding: 0.5em;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0.5em;
+}
+
+button[type="submit"] {
+  padding: 1em;
+  font-size: 1.2em;
+  background-color: #00a2ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 1em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0077c2;
+}
+
+
+/* Your current styles */
+/* Reset default styles */
+/* ... all your existing styles ... */
+/* Reservation Form */
+/* ... */
+
+/* New styles for the table */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #34495e;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+form {
+  display: inline-block;
+}
+
+/* This is used for hiding the actual input field of the role selection form. 
+   The form itself (with the button) remains visible */
+form input[type="hidden"] {
+  display: none;
+}

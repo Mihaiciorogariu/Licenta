@@ -1,0 +1,182 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Global styles */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  .panel {
+    background-color: #0077b6;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  
+  .panel nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .panel nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .panel nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .panel nav a:hover {
+    color: #ecf0f1;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2c3e50;
+  }
+  
+  /* Footer styles */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .social-media {
+    display: flex;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-media a:hover {
+    color: #ecf0f1;
+  }
+  
+  /* Reservation Form */
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 1.1em;
+    margin: 1em;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  select,
+  input[type="text"] {
+    padding: 0.5em;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0.5em;
+  }
+  
+  button[type="submit"] {
+    padding: 1em;
+    font-size: 1.2em;
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 1em;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2c3e50;
+  }
+  
+  
